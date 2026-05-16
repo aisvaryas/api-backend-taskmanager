@@ -9,6 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/v1/tasks")
+@CrossOrigin(origins="http://localhost:3000")
 @RequiredArgsConstructor
 public class TaskController {
 
